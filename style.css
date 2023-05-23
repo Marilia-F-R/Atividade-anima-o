@@ -1,0 +1,36 @@
+.pulsar {
+    animation: pulsar 0.7s infinite;
+    margin: 0 auto;
+    display: table;
+    margin-top: 50px;
+    animation-direction: alternate;
+    animation-name: pulsar;
+  }
+   
+    @keyframes pulsar {
+    0% {
+      transform: scale(1);
+      filter: brightness(100%);
+    }
+    100% {
+      transform: scale(1.1);
+      filter: brightness(200%);
+    }
+  }
+  .letreiro {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(173, 3, 3);
+    
+  }
+  .container {
+    width: 35em;
+    height:30em;
+    border-color: rgb(114, 12, 12);
+    border-style: dotted;
+    border-radius: 10px;
+    margin-left: 30%;
+    
+  }
+
+  
